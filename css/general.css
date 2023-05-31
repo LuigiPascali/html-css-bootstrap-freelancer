@@ -65,3 +65,9 @@ GENERAL
 .card_6_bg {
     background-color: var(--card_6_bg);
 }
+
+.card {
+    width: 100%;
+    height: 12.5rem;
+    margin-bottom: .625rem;
+}
