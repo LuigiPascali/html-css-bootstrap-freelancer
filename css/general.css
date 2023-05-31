@@ -42,6 +42,10 @@ GENERAL
     background-color: var(--info_bg);
 }
 
+.footer_bg {
+    background-color: var(--top_bottom_bg);
+}
+
 .card_1_bg {
     background-color: var(--card_1_bg);
 }
@@ -64,6 +68,10 @@ GENERAL
 
 .card_6_bg {
     background-color: var(--card_6_bg);
+}
+
+.link_color {
+    color: var(--section_1_bg);
 }
 
 .card {
