@@ -7,6 +7,10 @@ GENERAL
     font-family: 'Raleway', sans-serif;   
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* 
     VARIABLES
 */
@@ -74,16 +78,20 @@ GENERAL
     color: var(--section_1_bg);
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .hr_white {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.875rem;
     color: white;
+}
+
+.hr_black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9375rem;
+    color: black;
 }
 
 .hr_white::before,
@@ -94,14 +102,6 @@ html {
     height: .3125rem;
     border-radius: .1875rem;
     background-color: white;
-}
-
-.hr_black {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: .9375rem;
-    color: black;
 }
 
 .hr_black::before,
