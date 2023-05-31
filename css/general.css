@@ -74,8 +74,49 @@ GENERAL
     color: var(--section_1_bg);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.hr_white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.hr_white::before,
+.hr_white::after {
+    content: "";
+    width: 20%;
+    max-width: 12.5rem;
+    height: .3125rem;
+    border-radius: .1875rem;
+    background-color: white;
+}
+
+.hr_black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9375rem;
+    color: black;
+}
+
+.hr_black::before,
+.hr_black::after {
+    content: "";
+    width: 20%;
+    max-width: 6.25rem;
+    height: .3125rem;
+    border-radius: .1875rem;
+    background-color: black;
+}
+
 .card {
     width: 100%;
     height: 12.5rem;
     margin-bottom: .625rem;
 }
+
