@@ -1,0 +1,67 @@
+
+/* 
+GENERAL
+*/
+
+* {
+    font-family: 'Raleway', sans-serif;   
+}
+
+/* 
+    VARIABLES
+*/
+:root {
+    /* Color Palette */
+    
+    --top_bottom_bg:#4e5166;
+    --section_1_bg:#5CA4A9;
+    --section_2_bg:#FFFFFF;
+    --info_bg:#7C90A0;
+    --card_1_bg:#A40E4C;
+    --card_2_bg:#747C92;
+    --card_3_bg:#0A0A0A;
+    --card_4_bg:#5171A5;
+    --card_5_bg:#372772;
+    --card_6_bg:#B5AA9D;
+
+}
+
+.nav_bg {
+    background-color: var(--top_bottom_bg);
+}
+
+.section_1_bg {
+    background-color: var(--section_1_bg);
+}
+
+.section_2_bg {
+    background-color: var(--section2_bg);
+}
+
+.info_box_bg {
+    background-color: var(--info_bg);
+}
+
+.card_1_bg {
+    background-color: var(--card_1_bg);
+}
+
+.card_2_bg {
+    background-color: var(--card_2_bg);
+}
+
+.card_3_bg {
+    background-color: var(--card_3_bg);
+}
+
+.card_4_bg {
+    background-color: var(--card_4_bg);
+}
+
+.card_5_bg {
+    background-color: var(--card_5_bg);
+}
+
+.card_6_bg {
+    background-color: var(--card_6_bg);
+}
