@@ -30,55 +30,30 @@
 
     <body>
         
-        <header class="nav_bg">
-           
-            <div class="container container-md container-lg">
-
-                <div class="row py-3 align-items-center justify-content-between text-white mx-lg-5">
-                    <div class="col-6">
-                        <div>
-                            <a class="navbar-brand text-uppercase fw-bold" href="">
-                                start bootstrap 
-                            </a> 
-
-                        </div>
+        <header>
+        
+            <nav class="header container-fluid navbar navbar-expand-md navbar-dark pb-3 pt-3 nav_bg">
+                <div class="container">
+                    <a class="navbar-brand text-uppercase fw-bold" href="#hero">Start Bootsrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link fs-6 text-uppercase fw-bold text-white" href="#portfolio">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6 text-uppercase fw-bold text-white" href="#about">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6 text-uppercase fw-bold text-white" href="#contact">contact</a>
+                            </li>
+                        </ul>
                     </div>
-    
-                    <div class="col-6 text-end">
-    
-                       <div class="d-md-none">
-
-                        <button class="btn btn-outline-secondary bg-transparent text-white">
-                            <i class="fa-solid fa-bars fa-xs"></i>
-                        </button>
-
-                       </div>
-                        
-    
-                        <nav>
-
-                            <ul class="d-flex justify-content-evenly mb-0">
-    
-                                <li class="list-group-item">
-                                    <a class="text-decoration-none text-white text-uppercase" href="#portfolio"> portfolio </a>
-                                </li>
-    
-                                <li class="list-group-item">
-                                    <a class="text-decoration-none text-white text-uppercase" href="#about"> about</a>
-                                </li>
-    
-                                <li class="list-group-item">
-                                    <a class="text-decoration-none text-white text-uppercase" href="#contact"> contact</a>
-                                </li>
-                            </ul>
-
-                        </nav>
-
-                    </div>
-
                 </div>
-
-            </div>
+            </nav>
 
         </header>
 
@@ -94,7 +69,9 @@
 
                             <div class="hero">
 
-                                <img class="my-4 img-fluid" src="./img/avatar.svg" alt="avatar_img">
+                                <div class="img_container mx-auto w-50">
+                                    <img class="my-4 img-fluid" src="./img/avatar.svg" alt="avatar_img">
+                                </div>
                                 
                                 <h2 class="text-uppercase fw-bold pt-4 pb-4">
                                     start bootstrap
@@ -142,7 +119,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
 
                             <div>
-                                <img class="img-fluid pb-4" src="./img/cabin.png" alt="first_card_image">
+                                <img class="img-fluid rounded-3 pb-4" src="./img/cabin.png" alt="first_card_image">
                             </div>
 
                         </div>
@@ -150,7 +127,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
 
                             <div>
-                                <img class="img-fluid pb-4" src="./img/cake.png" alt="second_card_image"> 
+                                <img class="img-fluid rounded-3 pb-4" src="./img/cake.png" alt="second_card_image"> 
                             </div>
 
                         </div>
@@ -158,7 +135,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
 
                             <div>
-                                <img class="img-fluid pb-4" src="./img/circus.png" alt="third_card_image">
+                                <img class="img-fluid rounded-3 pb-4" src="./img/circus.png" alt="third_card_image">
                             </div>
 
                         </div>
@@ -166,7 +143,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
 
                             <div>
-                                <img class="img-fluid pb-4" src="./img/game.png" alt="fourth_card_image">
+                                <img class="img-fluid rounded-3 pb-4" src="./img/game.png" alt="fourth_card_image">
                             </div>
 
                         </div>
@@ -174,7 +151,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
 
                             <div>
-                                <img class="img-fluid pb-4" src="./img/safe.png" alt="fifth_card_image">
+                                <img class="img-fluid rounded-3 pb-4" src="./img/safe.png" alt="fifth_card_image">
                             </div>
 
                         </div>
@@ -182,7 +159,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
 
                             <div>
-                                <img class="img-fluid pb-4" src="./img/submarine.png" alt="sixth_card_image">
+                                <img class="img-fluid rounded-3 pb-4" src="./img/submarine.png" alt="sixth_card_image">
                             </div>
 
                         </div>
@@ -216,11 +193,15 @@
                             <div class="d-md-flex pt-4 pb-4">
 
                                 <p class="px-5 py-3 ps-md-1 pe-md-1 ps-lg-3 ">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint sit atque, deserunt, nemo sed dicta adipisci reiciendis voluptate, dolorem inventore neque ex porro animi! Deserunt quasi placeat beatae reiciendis?
+                                    Freelancer is a free bootstra theme created by Start Bootstrap. 
+                                    The download includes the complete source files including HTML, CSS ad JavaScript 
+                                    as well as optional LESS stylesheet for easy customization.
                                 </p>
 
                                 <p class="px-5 py-3 ps-md-1 pe-md-1 ps-lg-3">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint sit atque, deserunt, nemo sed dicta adipisci reiciendis voluptate, dolorem inventore neque ex porro animi! Deserunt quasi placeat beatae reiciendis?
+                                    Whether you're a student looking to showcase your work, 
+                                    a professional looking to attract clients, or a graphic artist looking to 
+                                    share your projects, this template is the perfect starting point!
                                 </p>
 
                             </div>
@@ -264,36 +245,48 @@
 
                         </div>
 
-                        <div class="pt-3">
+                        <div class="container">
 
-                            <h6>
-                                Name
-                            </h6>
+                            <form class="mb-5">
 
-                            <hr>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control is-valid border-0 border-bottom rounded-0" placeholder="Name"/>
+                                    <div class="valid-feedback">
+                                        Sounds Good!
+                                    </div>
+                                </div>
 
-                            <h6>
-                                Email Address
-                            </h6>
+                                <div class="mb-3">
 
-                            <hr>
+                                    <input type="email" class="form-control is-invalid border-0 border-bottom rounded-0" placeholder="Email Address"/>
+                                    <div class="invalid-feedback">
+                                        Please add @
+                                    </div>
 
-                            <h6>
-                                Phone Number
-                            </h6>
+                                </div>
+                
+                                <div class="mb-3">
 
-                            <hr>
+                                    <input type="tel" class="form-control is-invalid border-0 border-bottom rounded-0" placeholder="Phone Number"/>
+                                    <div class="invalid-feedback">
+                                        The prefix are required
+                                    </div>
 
-                            <h6 class="pb-5">
-                                Message
-                            </h6>
+                                </div>
+                
+                                <div class="form-floating mb-3">
 
-                            <hr>
+                                    <textarea id="floatingTextarea2" class="form-control border-0 border-bottom rounded-0" style="height: 100px"></textarea>
+                                    <label class="fw-lighter" for="floatingTextarea2" Type Something> </label>
+                                    
+                                </div>
+                
+                                <button type="submit mb-3" class="btn btn-outline-success">
+                                    Submit
+                                </button>
 
-                            <button class="btn btn-primary border-0 mb-5 section_1_bg">
-                                Send 
-                            </button>
-
+                            </form>
+                          
                         </div>
 
                     </div>
@@ -319,7 +312,7 @@
                             </h6>
 
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, totam?
+                                2251 John Daniel Drive Clark, MO <br> 54243
                             </p>
 
                         </div>
@@ -359,7 +352,7 @@
                                 about freelancer
                             </h6>
                             <p class="mb-sm-5">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                Freelance is a free to use, open source Bootstrap theme created by
                                 <a class="fw-bold text-decoration-none link_color" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Start Bootstrap</a>.
                             </p>
                         </div>
